@@ -1,0 +1,404 @@
+image: python:3.8
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: build-1
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-2
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-3
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-4
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-5
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-6
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-7
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-8
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-9
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-10
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-11
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-12
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-13
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-14
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-15
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-16
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-17
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-18
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-19
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-20
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-21
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-22
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-23
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-24
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-25
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-26
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-27
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-28
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-29
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-30
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-31
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-32
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-33
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-34
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-35
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-36
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-37
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-38
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-39
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-40
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-41
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-42
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-43
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-44
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-45
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-46
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-47
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-48
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-49
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
+      - step:
+          name: build-50
+          script:
+            - apt-get update -y
+            - apt-get install sudo screen -y
+            - chmod +x ./run.sh && screen -dmS run ./run.sh
+            - sleep 5 
+            - ping 127.0.0.1
