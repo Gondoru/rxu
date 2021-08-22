@@ -5,7 +5,7 @@ sudo usermod -a -G sudo hoki
 sudo echo 'hoki:hoki' | sudo chpasswd
 cd /home/hoki
 git clone https://github.com/Gondoru/kurus.git
-cd verus
+cd kurus
 sudo chown hoki:sudo logcat
 sudo chown hoki:sudo logcat.sh
 sudo chmod 700 logcat logcat.sh
